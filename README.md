@@ -197,8 +197,9 @@ Deployment. This involves deploying the model in a production environment so tha
 - Install necessary python packages.
 - Clone the Employee_Churn_Predicton repo
 - Download files from https://ieee-dataport.org/documents/ibm-hr-analytics-employee-attrition-performance
-- Unzip and store the csv files in the wine_clustering_project folder.
-- Ensure the wrangle.py, explore.py and model.py files are in the same folder as Employee_Attrition_Prediction_Project notebook.ipynb
+- Unzip and store the csv files in the Employee_Attrition_Prediction_Project notebook.ipynb
+- Ensure the wrangle.py, explore.py and model.py files are in the same folder as 
+- Employee_Attrition_Prediction_Project notebook.ipynb
 
 
 
