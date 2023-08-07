@@ -307,7 +307,17 @@ By following these recommendations, companies can reduce employee attrition and 
 A ML classification prediction model was was conducted , utilizing IBM Employee Attrition Prediction & Analysis dataset, which contains 1,470 rows and 35 columns To process and visualize the data effectively. The downloaded file_path was then converted into a csv that I will utilize API's to load into the CODEUP database. I Imported the necesary Python libraries explore my data set.
 For my modeling I selected the Decision Tree model, which is consistent and typically beats the base line. The primary goal of the project was to identify employee features that led to Attrition with an acurate  ML model . The goal of this data is to contribute to decion making effort for IBM's head of human resources abd stakeholders. 
 
+https://www.linkedin.com/in/miatta-s/
 
+## TRELLO
+
+Trello is a visual work management tool that helps teams organize their projects into boards. Boards are made up of lists, and lists are made up of cards. Cards represent tasks, and they can be moved between lists to show their status. Trello also has a number of features that make it easy to collaborate with others, such as commenting, @mentions, and checklists.
+
+To implement Trello in your product, you can use the Trello API. The API allows you to create, update, and delete boards, lists, and cards. You can also use the API to get information about boards, lists, and cards.
+
+Trello was utilized for planning and organizetion of this project.
+
+https://trello.com/b/FcKzAF2y/ibm-employee-churn-predicttion
 
 ***
 ## <a name="sources"></a>Sources:
