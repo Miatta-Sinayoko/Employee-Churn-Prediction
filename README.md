@@ -260,6 +260,8 @@ Train & Validate decision tree model scores were higher than baseline accuracy w
 ***
 
 ## <a name="conclusion"></a>Conclusion:
+[[Back to top](#top)]
+
 
 ## CONCLUSION 
 
@@ -297,7 +299,10 @@ Provide opportunities for professional development: This shows employees that th
 Listen to employee feedback: This shows employees that their voices are heard and that their concerns are taken seriously. It also helps companies identify areas where they can improve.
 By following these recommendations, companies can reduce employee attrition and keep their best employees engaged and productive.
 
-LinkedIn Project Description
+
+
+## LINKEDIN DESCRIPTION
+
 A ML classification prediction model was was conducted , utilizing IBM Employee Attrition Prediction & Analysis dataset, which contains 1,470 rows and 35 columns To process and visualize the data effectively. The downloaded file_path was then converted into a csv that I will utilize API's to load into the CODEUP database. I Imported the necesary Python libraries explore my data set.
 For my modeling I selected the Decision Tree model, which is consistent and typically beats the base line. The primary goal of the project was to identify employee features that led to Attrition with an acurate  ML model . The goal of this data is to contribute to decion making effort for IBM's head of human resources abd stakeholders. 
 
