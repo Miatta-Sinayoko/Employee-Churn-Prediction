@@ -118,7 +118,6 @@ The IBM employee attrition dataset is a mixed metric dataset that contains infor
         - 4: Masters Degree
         - 5: Doctoral Degree
 
-This revised data dictionary provides clarity on the dataset's features based on your feedback.
 
 
 
@@ -231,9 +230,6 @@ Deployment. This involves deploying the model in a production environment so tha
 
 The baseline accuracy is: 83.22%
 
-
-
-### Top 3 Models
 
     
 #### Model 1: Randomn Forest
