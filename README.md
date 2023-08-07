@@ -217,13 +217,6 @@ Deployment. This involves deploying the model in a production environment so tha
 
 #### Overall, the charts suggest that there are a number of factors that can contribute to employee attrition. Companies can keep their employees by understanding these factors and taking steps to address them.
 
-
-***
-
-## <a name="model"></a>Modeling:
-[[Back to top](#top)]
-
-
 ### Baseline
     
 - Baseline Results: 
@@ -233,7 +226,6 @@ The baseline accuracy is: 83.22%
 
     
 #### Model 1: Randomn Forest
-
 
 training score: 89.00%
 validate score: 84.01%
@@ -252,11 +244,7 @@ Decision tree validate score: 84.69%
 Decision tree scores are both higher than baseline accuracy
 
 
-
-
 ## Top Model:
-
-
 
 ####  Decision Tree
 
@@ -264,7 +252,6 @@ Decision tree scores are both higher than baseline accuracy
 ## Testing the Model
 
 - Model Testing Results
-
 Decision tree test score: 88.78%
 Train & Validate decision tree model scores were higher than baseline accuracy with a consistant accuracy of 84%. Test Decesion Tree apprx 89%
 
