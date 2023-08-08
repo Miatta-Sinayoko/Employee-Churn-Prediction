@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 
 
@@ -32,14 +33,20 @@ from sklearn.model_selection import train_test_split
 
 #     return df
 
-def prep_HR_churn_data(HR_df):
+
+def prep_HR_churn_data():
+    # Replace 'path/to/your/Data_Hr_Analytics_S3.csv' with the actual full file path to your dataset file
+    # file_path = '/Users/miattas/codeup-data-science/Employee-Churn-Prediction/Data_Hr_Analytics_S3.csv'
+
+#     # Call the function to load the dataset
+#     HR_df = (file_path)
     # Load the dataset
-    # HR_df = pd.read_csv(file)
+    HR_df = pd.read_csv('Data_Hr_Analytics_S3.csv')
 
     # Drop duplicates
     HR_df.drop_duplicates(inplace=True)
 
-    #Handle missing values (if any)
+    # Handle missing values (if any)
     HR_df.fillna(0, inplace=True)
 
     # Encode categorical variables (if any)
@@ -52,11 +59,11 @@ def prep_HR_churn_data(HR_df):
     # Convert 'Attrition' column to boolean (1 for Yes and 0 for No)
     HR_df['Yes_Attrition'] = np.where(HR_df['Attrition'] == 'Yes', 1, 0).astype(int)
     
-    
     # Assuming you have your DataFrame named 'df', and you want to keep only the specified columns
     selected_df = HR_df[['Age','Yes_Attrition', 'Tenure', 'Education']]
 
     return selected_df
+
 #-------------- SPLIT-------
 
 def split_selected(selected_df):
